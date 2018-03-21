@@ -6,3 +6,6 @@ h3 {
 ._dash-undo-redo {
   display: none;
 }
+.modebar{
+      display: none !important;
+}
