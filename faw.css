@@ -22,6 +22,25 @@ h3 {
   background-color: #0db14b;
 }
 
+.rc-slider-handle {
+  position: absolute;
+  margin-left: -7px;
+  margin-top: -5px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: solid 2px #0db14b;
+  background-color: #fff;
+}
+.rc-slider-handle:hover {
+  border-color: #0db14b;
+}
+.rc-slider-handle-active:active {
+  border-color: #0db14b;
+  box-shadow: 0 0 5px #0db14b;
+}
+
 .button,
 button,
 input[type="submit"],
