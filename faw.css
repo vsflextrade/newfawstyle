@@ -9,3 +9,15 @@ h3 {
 .modebar{
       display: none !important;
 }
+
+.rc-slider-disabled{
+  background-color: #0097a7;
+}
+
+.rc-slider-track {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  border-radius: 6px;
+  background-color: #0db14b;
+}
