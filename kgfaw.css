@@ -352,3 +352,37 @@ input[type="button"].button-primary:focus {
   display: inline-block;
   width: 120px;
   vertical-align: middle; }
+
+
+.DayPickerKeyboardShortcuts__show--bottom-right {
+  border-top: 26px solid transparent;
+  border-right: 33px solid #2235f;
+  bottom: 0;
+  right: 0; }
+  .DayPickerKeyboardShortcuts__show--bottom-right:hover {
+    border-right: 33px solid #008489; }
+  .DayPickerKeyboardShortcuts__show--bottom-right .DayPickerKeyboardShortcuts__show_span {
+    bottom: 0;
+    right: -28px; }
+
+.DayPickerKeyboardShortcuts__show--top-right {
+  border-bottom: 26px solid transparent;
+  border-right: 33px solid #2235f;
+  top: 0;
+  right: 0; }
+  .DayPickerKeyboardShortcuts__show--top-right:hover {
+    border-right: 33px solid #008489; }
+  .DayPickerKeyboardShortcuts__show--top-right .DayPickerKeyboardShortcuts__show_span {
+    top: 1px;
+    right: -28px; }
+
+.DayPickerKeyboardShortcuts__show--top-left {
+  border-bottom: 26px solid transparent;
+  border-left: 33px solid #2235f;
+  top: 0;
+  left: 0; }
+  .DayPickerKeyboardShortcuts__show--top-left:hover {
+    border-left: 33px solid #008489; }
+  .DayPickerKeyboardShortcuts__show--top-left .DayPickerKeyboardShortcuts__show_span {
+    top: 1px;
+    left: -28px; }
