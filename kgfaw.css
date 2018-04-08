@@ -229,10 +229,10 @@ input[type="button"].button-primary:focus {
 
 .CalendarDay--highlighted-calendar {
   background: #ffe8bc;
-  color: #0DB14B;
+  color: #22c35f;
   cursor: default; }
  .CalendarDay--highlighted-calendar:active {
-    background: #0DB14B; }
+    background: #22c35f; }
 
 .CalendarDay--outside {
   border: 0;
@@ -267,21 +267,21 @@ input[type="button"].button-primary:focus {
 .CalendarDay--after-hovered-start {
   background: #b2f1ec;
   border: 1px double #80e8e0;
-  color: #007a87; }
+  color: #0DB14B; }
   .CalendarDay--hovered-span:active,
   .CalendarDay--after-hovered-start:active {
-    background: #80e8e0; }
+    background: #0DB14B; }
 
 .CalendarDay--selected-start,
 .CalendarDay--selected-end,
 .CalendarDay--selected {
-  background: #70d1ff;
-  border: 1px double #70d1ff;
+  background: #0DB14B;
+  border: 1px double #0DB14B;
   color: #fff; }
   .CalendarDay--selected-start:active,
   .CalendarDay--selected-end:active,
   .CalendarDay--selected:active {
-    background: #70d1ff; }
+    background: #0DB14B; }
 
 .CalendarDay--blocked-calendar {
   background: #cacccd;
@@ -339,3 +339,16 @@ input[type="button"].button-primary:focus {
 
 .CalendarMonth--vertical-scrollable .CalendarMonth__caption {
   padding: 5px 0; }
+
+.DateInput {
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 20px;
+  color: #757575;
+  margin: 0;
+  padding: 8px;
+  background: #fff;
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  vertical-align: middle; }
