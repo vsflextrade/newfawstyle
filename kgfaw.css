@@ -265,7 +265,7 @@ input[type="button"].button-primary:focus {
 
 .CalendarDay--hovered-span,
 .CalendarDay--after-hovered-start {
-  background: #b2f1ec;
+  background: #0DB14B;
   border: 1px double #80e8e0;
   color: #0DB14B; }
   .CalendarDay--hovered-span:active,
@@ -357,6 +357,7 @@ input[type="button"].button-primary:focus {
 .DayPickerKeyboardShortcuts__show--bottom-right {
   border-top: 26px solid transparent;
   border-right: 33px solid #2235f;
+  background: #2235f;
   bottom: 0;
   right: 0; }
   .DayPickerKeyboardShortcuts__show--bottom-right:hover {
