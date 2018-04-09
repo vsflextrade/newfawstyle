@@ -335,7 +335,7 @@ input[type="button"].button-primary:focus {
 
 .CalendarMonth--horizontal .CalendarMonth__caption,
 .CalendarMonth--vertical .CalendarMonth__caption {
-  padding: 15px 0 35px; }
+  padding: 10px 0 35px; }
 
 .CalendarMonth--vertical-scrollable .CalendarMonth__caption {
   padding: 5px 0; }
