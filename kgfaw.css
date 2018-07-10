@@ -1,4 +1,41 @@
 
+#details-link {
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    color: #22c35f;
+    font-size: 14px;
+    line-height: 10px;
+  
+}
+/* Style the tab */
+.tab {
+    float: left; 
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 10%;
+    height: 50px;
+    font-size: 14px;
+    line-height: 10px;
+}
+.selected {
+  border-bottom-color: #ddd;
+  border-right-color: transparent;
+  background:#f90;
+  border:none;
+  border-radius:0px;
+  margin:0px;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
+
 h3 {
     font-family: Roboto;
 }
@@ -289,7 +326,7 @@ input[type="button"].button-primary:focus {
   cursor: default; }
   .CalendarDay--blocked-calendar:active {
     background: #cacccd; }
-
++
 .CalendarDay--blocked-out-of-range {
   color: #cacccd;
   background: #fff;
