@@ -1,12 +1,4 @@
 
-#details-link {
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-    color: #22c35f;
-    font-size: 14px;
-    line-height: 10px;
-  
-}
 /* Style the tab */
 .tab {
     float: left; 
@@ -21,6 +13,7 @@
   border-bottom-color: #ddd;
   border-right-color: transparent;
   background:#f90;
+  color: #22c35f;
   border:none;
   border-radius:0px;
   margin:0px;
@@ -28,7 +21,7 @@
 
 /* Style the tab content */
 .tabcontent {
-    float: left;
+it    float: left;
     padding: 0px 12px;
     border: 1px solid #ccc;
     width: 70%;
